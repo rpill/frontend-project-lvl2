@@ -1,0 +1,38 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/rpill/frontend-project-lvl2/workflows/hexlet-check/badge.svg)](https://github.com/rpill/frontend-project-lvl2/actions)",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=14"
+  },
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
+  "scripts": {
+    "test": "npx jest --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpill/frontend-project-lvl2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpill/frontend-project-lvl2/issues"
+  },
+  "homepage": "https://github.com/rpill/frontend-project-lvl2#readme",
+  "devDependencies": {
+    "@jest/globals": "^28.1.0",
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.4.6",
+    "jest": "^28.1.0",
+    "jest-cli": "^28.1.0"
+  },
+  "dependencies": {
+    "commander": "^9.3.0"
+  }
+}
